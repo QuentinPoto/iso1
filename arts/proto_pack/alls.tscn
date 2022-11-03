@@ -1,0 +1,1208 @@
+[gd_scene load_steps=241 format=2]
+
+[ext_resource path="res://arts/proto_pack/Isometric/arrow_N.png" type="Texture" id=1]
+[ext_resource path="res://arts/proto_pack/Isometric/arrow_S.png" type="Texture" id=2]
+[ext_resource path="res://arts/proto_pack/Isometric/arrow_W.png" type="Texture" id=3]
+[ext_resource path="res://arts/proto_pack/Isometric/blockAngle_E.png" type="Texture" id=4]
+[ext_resource path="res://arts/proto_pack/Isometric/blockAngle_N.png" type="Texture" id=5]
+[ext_resource path="res://arts/proto_pack/Isometric/blockAngle_S.png" type="Texture" id=6]
+[ext_resource path="res://arts/proto_pack/Isometric/blockAngle_W.png" type="Texture" id=7]
+[ext_resource path="res://arts/proto_pack/Isometric/blockHalf_E.png" type="Texture" id=8]
+[ext_resource path="res://arts/proto_pack/Isometric/blockHalf_N.png" type="Texture" id=9]
+[ext_resource path="res://arts/proto_pack/Isometric/blockHalf_S.png" type="Texture" id=10]
+[ext_resource path="res://arts/proto_pack/Isometric/blockHalf_W.png" type="Texture" id=11]
+[ext_resource path="res://arts/proto_pack/Isometric/blockQuarter_E.png" type="Texture" id=12]
+[ext_resource path="res://arts/proto_pack/Isometric/blockQuarter_N.png" type="Texture" id=13]
+[ext_resource path="res://arts/proto_pack/Isometric/blockQuarter_S.png" type="Texture" id=14]
+[ext_resource path="res://arts/proto_pack/Isometric/blockQuarter_W.png" type="Texture" id=15]
+[ext_resource path="res://arts/proto_pack/Isometric/block_E.png" type="Texture" id=16]
+[ext_resource path="res://arts/proto_pack/Isometric/block_N.png" type="Texture" id=17]
+[ext_resource path="res://arts/proto_pack/Isometric/block_S.png" type="Texture" id=18]
+[ext_resource path="res://arts/proto_pack/Isometric/block_W.png" type="Texture" id=19]
+[ext_resource path="res://arts/proto_pack/Isometric/columnBlocks_E.png" type="Texture" id=20]
+[ext_resource path="res://arts/proto_pack/Isometric/columnBlocks_N.png" type="Texture" id=21]
+[ext_resource path="res://arts/proto_pack/Isometric/columnBlocks_S.png" type="Texture" id=22]
+[ext_resource path="res://arts/proto_pack/Isometric/columnBlocks_W.png" type="Texture" id=23]
+[ext_resource path="res://arts/proto_pack/Isometric/columnCorner_E.png" type="Texture" id=24]
+[ext_resource path="res://arts/proto_pack/Isometric/columnCorner_N.png" type="Texture" id=25]
+[ext_resource path="res://arts/proto_pack/Isometric/columnCorner_S.png" type="Texture" id=26]
+[ext_resource path="res://arts/proto_pack/Isometric/columnCorner_W.png" type="Texture" id=27]
+[ext_resource path="res://arts/proto_pack/Isometric/column_E.png" type="Texture" id=28]
+[ext_resource path="res://arts/proto_pack/Isometric/column_N.png" type="Texture" id=29]
+[ext_resource path="res://arts/proto_pack/Isometric/column_S.png" type="Texture" id=30]
+[ext_resource path="res://arts/proto_pack/Isometric/column_W.png" type="Texture" id=31]
+[ext_resource path="res://arts/proto_pack/Isometric/crate_E.png" type="Texture" id=32]
+[ext_resource path="res://arts/proto_pack/Isometric/crate_N.png" type="Texture" id=33]
+[ext_resource path="res://arts/proto_pack/Isometric/doorway_N.png" type="Texture" id=34]
+[ext_resource path="res://arts/proto_pack/Isometric/doorway_S.png" type="Texture" id=35]
+[ext_resource path="res://arts/proto_pack/Isometric/doorway_W.png" type="Texture" id=36]
+[ext_resource path="res://arts/proto_pack/Isometric/fence_E.png" type="Texture" id=37]
+[ext_resource path="res://arts/proto_pack/Isometric/fence_N.png" type="Texture" id=38]
+[ext_resource path="res://arts/proto_pack/Isometric/fence_S.png" type="Texture" id=39]
+[ext_resource path="res://arts/proto_pack/Isometric/fence_W.png" type="Texture" id=40]
+[ext_resource path="res://arts/proto_pack/Isometric/floorHalf_E.png" type="Texture" id=41]
+[ext_resource path="res://arts/proto_pack/Isometric/floorHalf_N.png" type="Texture" id=42]
+[ext_resource path="res://arts/proto_pack/Isometric/floorHalf_S.png" type="Texture" id=43]
+[ext_resource path="res://arts/proto_pack/Isometric/floorHalf_W.png" type="Texture" id=44]
+[ext_resource path="res://arts/proto_pack/Isometric/floorQuarter_E.png" type="Texture" id=45]
+[ext_resource path="res://arts/proto_pack/Isometric/floorQuarter_N.png" type="Texture" id=46]
+[ext_resource path="res://arts/proto_pack/Isometric/floorQuarter_S.png" type="Texture" id=47]
+[ext_resource path="res://arts/proto_pack/Isometric/floorQuarter_W.png" type="Texture" id=48]
+[ext_resource path="res://arts/proto_pack/Isometric/floor_E.png" type="Texture" id=49]
+[ext_resource path="res://arts/proto_pack/Isometric/floor_N.png" type="Texture" id=50]
+[ext_resource path="res://arts/proto_pack/Isometric/floor_S.png" type="Texture" id=51]
+[ext_resource path="res://arts/proto_pack/Isometric/floor_W.png" type="Texture" id=52]
+[ext_resource path="res://arts/proto_pack/Isometric/ladder_E.png" type="Texture" id=53]
+[ext_resource path="res://arts/proto_pack/Isometric/ladder_N.png" type="Texture" id=54]
+[ext_resource path="res://arts/proto_pack/Isometric/slopeSmall_E.png" type="Texture" id=55]
+[ext_resource path="res://arts/proto_pack/Isometric/ladder_S.png" type="Texture" id=56]
+[ext_resource path="res://arts/proto_pack/Isometric/slopeSmall_N.png" type="Texture" id=57]
+[ext_resource path="res://arts/proto_pack/Isometric/slopeSmall_S.png" type="Texture" id=58]
+[ext_resource path="res://arts/proto_pack/Isometric/slopeSmall_W.png" type="Texture" id=59]
+[ext_resource path="res://arts/proto_pack/Isometric/slope_E.png" type="Texture" id=60]
+[ext_resource path="res://arts/proto_pack/Isometric/slope_N.png" type="Texture" id=61]
+[ext_resource path="res://arts/proto_pack/Isometric/slope_S.png" type="Texture" id=62]
+[ext_resource path="res://arts/proto_pack/Isometric/slope_W.png" type="Texture" id=63]
+[ext_resource path="res://arts/proto_pack/Isometric/stairsCornerInner_E.png" type="Texture" id=64]
+[ext_resource path="res://arts/proto_pack/Isometric/stairsCornerInner_N.png" type="Texture" id=65]
+[ext_resource path="res://arts/proto_pack/Isometric/stairsCornerInner_S.png" type="Texture" id=66]
+[ext_resource path="res://arts/proto_pack/Isometric/stairsCornerInner_W.png" type="Texture" id=67]
+[ext_resource path="res://arts/proto_pack/Isometric/stairsCornerOuter_E.png" type="Texture" id=68]
+[ext_resource path="res://arts/proto_pack/Isometric/stairsCornerOuter_N.png" type="Texture" id=69]
+[ext_resource path="res://arts/proto_pack/Isometric/stairsCornerOuter_S.png" type="Texture" id=70]
+[ext_resource path="res://arts/proto_pack/Isometric/stairsCornerOuter_W.png" type="Texture" id=71]
+[ext_resource path="res://arts/proto_pack/Isometric/stairsOpenCornerInner_E.png" type="Texture" id=72]
+[ext_resource path="res://arts/proto_pack/Isometric/stairsOpenCornerInner_N.png" type="Texture" id=73]
+[ext_resource path="res://arts/proto_pack/Isometric/stairsOpenCornerInner_S.png" type="Texture" id=74]
+[ext_resource path="res://arts/proto_pack/Isometric/stairsOpenCornerInner_W.png" type="Texture" id=75]
+[ext_resource path="res://arts/proto_pack/Isometric/stairsOpenCornerOuter_N.png" type="Texture" id=76]
+[ext_resource path="res://arts/proto_pack/Isometric/stairsOpenCornerOuter_E.png" type="Texture" id=77]
+[ext_resource path="res://arts/proto_pack/Isometric/stairsOpenCornerOuter_S.png" type="Texture" id=78]
+[ext_resource path="res://arts/proto_pack/Isometric/stairsOpen_E.png" type="Texture" id=79]
+[ext_resource path="res://arts/proto_pack/Isometric/stairsOpenCornerOuter_W.png" type="Texture" id=80]
+[ext_resource path="res://arts/proto_pack/Isometric/stairsOpen_N.png" type="Texture" id=81]
+[ext_resource path="res://arts/proto_pack/Isometric/stairsOpen_S.png" type="Texture" id=82]
+[ext_resource path="res://arts/proto_pack/Isometric/stairsOpen_W.png" type="Texture" id=83]
+[ext_resource path="res://arts/proto_pack/Isometric/stairs_E.png" type="Texture" id=84]
+[ext_resource path="res://arts/proto_pack/Isometric/stairs_N.png" type="Texture" id=85]
+[ext_resource path="res://arts/proto_pack/Isometric/stairs_S.png" type="Texture" id=86]
+[ext_resource path="res://arts/proto_pack/Isometric/stairs_W.png" type="Texture" id=87]
+[ext_resource path="res://arts/proto_pack/Isometric/steps_E.png" type="Texture" id=88]
+[ext_resource path="res://arts/proto_pack/Isometric/steps_N.png" type="Texture" id=89]
+[ext_resource path="res://arts/proto_pack/Isometric/steps_S.png" type="Texture" id=90]
+[ext_resource path="res://arts/proto_pack/Isometric/steps_W.png" type="Texture" id=91]
+[ext_resource path="res://arts/proto_pack/Isometric/switchFloorOff_E.png" type="Texture" id=92]
+[ext_resource path="res://arts/proto_pack/Isometric/switchFloorOff_N.png" type="Texture" id=93]
+[ext_resource path="res://arts/proto_pack/Isometric/switchFloorOff_S.png" type="Texture" id=94]
+[ext_resource path="res://arts/proto_pack/Isometric/switchFloorOff_W.png" type="Texture" id=95]
+[ext_resource path="res://arts/proto_pack/Isometric/switchFloorOn_E.png" type="Texture" id=96]
+[ext_resource path="res://arts/proto_pack/Isometric/switchFloorOn_N.png" type="Texture" id=97]
+[ext_resource path="res://arts/proto_pack/Isometric/switchFloorOn_S.png" type="Texture" id=98]
+[ext_resource path="res://arts/proto_pack/Isometric/switchFloorOn_W.png" type="Texture" id=99]
+[ext_resource path="res://arts/proto_pack/Isometric/switchWallOff_E.png" type="Texture" id=100]
+[ext_resource path="res://arts/proto_pack/Isometric/switchWallOff_N.png" type="Texture" id=101]
+[ext_resource path="res://arts/proto_pack/Isometric/switchWallOff_S.png" type="Texture" id=102]
+[ext_resource path="res://arts/proto_pack/Isometric/switchWallOff_W.png" type="Texture" id=103]
+[ext_resource path="res://arts/proto_pack/Isometric/switchWallOn_E.png" type="Texture" id=104]
+[ext_resource path="res://arts/proto_pack/Isometric/switchWallOn_N.png" type="Texture" id=105]
+[ext_resource path="res://arts/proto_pack/Isometric/switchWallOn_S.png" type="Texture" id=106]
+[ext_resource path="res://arts/proto_pack/Isometric/switchWallOn_W.png" type="Texture" id=107]
+[ext_resource path="res://arts/proto_pack/Isometric/wallBattlement_E.png" type="Texture" id=108]
+[ext_resource path="res://arts/proto_pack/Isometric/wallBattlement_N.png" type="Texture" id=109]
+[ext_resource path="res://arts/proto_pack/Isometric/wallBattlement_S.png" type="Texture" id=110]
+[ext_resource path="res://arts/proto_pack/Isometric/wallBattlement_W.png" type="Texture" id=111]
+[ext_resource path="res://arts/proto_pack/Isometric/wallCornerHalf_E.png" type="Texture" id=112]
+[ext_resource path="res://arts/proto_pack/Isometric/wallCornerHalf_N.png" type="Texture" id=113]
+[ext_resource path="res://arts/proto_pack/Isometric/wallCornerHalf_S.png" type="Texture" id=114]
+[ext_resource path="res://arts/proto_pack/Isometric/wallCornerHalf_W.png" type="Texture" id=115]
+[ext_resource path="res://arts/proto_pack/Isometric/wallCorner_E.png" type="Texture" id=116]
+[ext_resource path="res://arts/proto_pack/Isometric/wallCorner_N.png" type="Texture" id=117]
+[ext_resource path="res://arts/proto_pack/Isometric/wallCorner_S.png" type="Texture" id=118]
+[ext_resource path="res://arts/proto_pack/Isometric/wallCorner_W.png" type="Texture" id=119]
+[ext_resource path="res://arts/proto_pack/Isometric/wallCurveHalf_E.png" type="Texture" id=120]
+[ext_resource path="res://arts/proto_pack/Isometric/wallCurveHalf_N.png" type="Texture" id=121]
+[ext_resource path="res://arts/proto_pack/Isometric/wallCurveHalf_S.png" type="Texture" id=122]
+[ext_resource path="res://arts/proto_pack/Isometric/wallCurveHalf_W.png" type="Texture" id=123]
+[ext_resource path="res://arts/proto_pack/Isometric/wallCurve_E.png" type="Texture" id=124]
+[ext_resource path="res://arts/proto_pack/Isometric/wallCurve_N.png" type="Texture" id=125]
+[ext_resource path="res://arts/proto_pack/Isometric/wallCurve_S.png" type="Texture" id=126]
+[ext_resource path="res://arts/proto_pack/Isometric/wallCurve_W.png" type="Texture" id=127]
+[ext_resource path="res://arts/proto_pack/Isometric/wallHalf_E.png" type="Texture" id=128]
+[ext_resource path="res://arts/proto_pack/Isometric/wallHalf_N.png" type="Texture" id=129]
+[ext_resource path="res://arts/proto_pack/Isometric/wallHalf_S.png" type="Texture" id=130]
+[ext_resource path="res://arts/proto_pack/Isometric/wallHalf_W.png" type="Texture" id=131]
+[ext_resource path="res://arts/proto_pack/Isometric/wall_E.png" type="Texture" id=132]
+[ext_resource path="res://arts/proto_pack/Isometric/wall_N.png" type="Texture" id=133]
+[ext_resource path="res://arts/proto_pack/Isometric/wall_S.png" type="Texture" id=134]
+[ext_resource path="res://arts/proto_pack/Isometric/wall_W.png" type="Texture" id=135]
+[ext_resource path="res://arts/proto_pack/Isometric/windowLeft_E.png" type="Texture" id=136]
+[ext_resource path="res://arts/proto_pack/Isometric/windowLeft_N.png" type="Texture" id=137]
+[ext_resource path="res://arts/proto_pack/Isometric/windowLeft_S.png" type="Texture" id=138]
+[ext_resource path="res://arts/proto_pack/Isometric/windowLeft_W.png" type="Texture" id=139]
+[ext_resource path="res://arts/proto_pack/Isometric/windowMiddle_E.png" type="Texture" id=140]
+[ext_resource path="res://arts/proto_pack/Isometric/windowMiddle_N.png" type="Texture" id=141]
+[ext_resource path="res://arts/proto_pack/Isometric/windowMiddle_S.png" type="Texture" id=142]
+[ext_resource path="res://arts/proto_pack/Isometric/windowMiddle_W.png" type="Texture" id=143]
+[ext_resource path="res://arts/proto_pack/Isometric/windowRight_E.png" type="Texture" id=144]
+[ext_resource path="res://arts/proto_pack/Isometric/windowRight_N.png" type="Texture" id=145]
+[ext_resource path="res://arts/proto_pack/Isometric/windowRight_S.png" type="Texture" id=146]
+[ext_resource path="res://arts/proto_pack/Isometric/windowRight_W.png" type="Texture" id=147]
+[ext_resource path="res://arts/proto_pack/Isometric/window_E.png" type="Texture" id=148]
+[ext_resource path="res://arts/proto_pack/Isometric/window_N.png" type="Texture" id=149]
+[ext_resource path="res://arts/proto_pack/Isometric/window_S.png" type="Texture" id=150]
+[ext_resource path="res://arts/proto_pack/Isometric/window_W.png" type="Texture" id=151]
+[ext_resource path="res://arts/proto_pack/Isometric/doorwayRightBottom_N.png" type="Texture" id=152]
+[ext_resource path="res://arts/proto_pack/Isometric/doorwayRightBottom_S.png" type="Texture" id=153]
+[ext_resource path="res://arts/proto_pack/Isometric/doorwayRightBottom_W.png" type="Texture" id=154]
+[ext_resource path="res://arts/proto_pack/Isometric/doorwayRight_E.png" type="Texture" id=155]
+[ext_resource path="res://arts/proto_pack/Isometric/doorwayRight_N.png" type="Texture" id=156]
+[ext_resource path="res://arts/proto_pack/Isometric/doorwayRight_S.png" type="Texture" id=157]
+[ext_resource path="res://arts/proto_pack/Isometric/doorwayRight_W.png" type="Texture" id=158]
+[ext_resource path="res://arts/proto_pack/Isometric/doorway_E.png" type="Texture" id=159]
+[ext_resource path="res://arts/proto_pack/Isometric/ladder_W.png" type="Texture" id=160]
+[ext_resource path="res://arts/proto_pack/Isometric/poleGroup_E.png" type="Texture" id=161]
+[ext_resource path="res://arts/proto_pack/Isometric/poleGroup_N.png" type="Texture" id=162]
+[ext_resource path="res://arts/proto_pack/Isometric/poleGroup_S.png" type="Texture" id=163]
+[ext_resource path="res://arts/proto_pack/Isometric/poleGroup_W.png" type="Texture" id=164]
+[ext_resource path="res://arts/proto_pack/Isometric/pole_E.png" type="Texture" id=165]
+[ext_resource path="res://arts/proto_pack/Isometric/pole_N.png" type="Texture" id=166]
+[ext_resource path="res://arts/proto_pack/Isometric/pole_S.png" type="Texture" id=167]
+[ext_resource path="res://arts/proto_pack/Isometric/pole_W.png" type="Texture" id=168]
+[ext_resource path="res://arts/proto_pack/Isometric/slabAngle_E.png" type="Texture" id=169]
+[ext_resource path="res://arts/proto_pack/Isometric/slabAngle_N.png" type="Texture" id=170]
+[ext_resource path="res://arts/proto_pack/Isometric/slabAngle_S.png" type="Texture" id=171]
+[ext_resource path="res://arts/proto_pack/Isometric/slabAngle_W.png" type="Texture" id=172]
+[ext_resource path="res://arts/proto_pack/Isometric/slabHalf_E.png" type="Texture" id=173]
+[ext_resource path="res://arts/proto_pack/Isometric/slabHalf_N.png" type="Texture" id=174]
+[ext_resource path="res://arts/proto_pack/Isometric/slabHalf_S.png" type="Texture" id=175]
+[ext_resource path="res://arts/proto_pack/Isometric/slabHalf_W.png" type="Texture" id=176]
+[ext_resource path="res://arts/proto_pack/Isometric/slabQuarter_E.png" type="Texture" id=177]
+[ext_resource path="res://arts/proto_pack/Isometric/slabQuarter_N.png" type="Texture" id=178]
+[ext_resource path="res://arts/proto_pack/Isometric/slabQuarter_S.png" type="Texture" id=179]
+[ext_resource path="res://arts/proto_pack/Isometric/slabQuarter_W.png" type="Texture" id=180]
+[ext_resource path="res://arts/proto_pack/Isometric/slab_E.png" type="Texture" id=181]
+[ext_resource path="res://arts/proto_pack/Isometric/slab_N.png" type="Texture" id=182]
+[ext_resource path="res://arts/proto_pack/Isometric/slab_S.png" type="Texture" id=183]
+[ext_resource path="res://arts/proto_pack/Isometric/slab_W.png" type="Texture" id=184]
+[ext_resource path="res://arts/proto_pack/Isometric/slopeHalf_E.png" type="Texture" id=185]
+[ext_resource path="res://arts/proto_pack/Isometric/slopeHalf_N.png" type="Texture" id=186]
+[ext_resource path="res://arts/proto_pack/Isometric/slopeHalf_S.png" type="Texture" id=187]
+[ext_resource path="res://arts/proto_pack/Isometric/slopeHalf_W.png" type="Texture" id=188]
+[ext_resource path="res://arts/proto_pack/Isometric/slopeQuarter_E.png" type="Texture" id=189]
+[ext_resource path="res://arts/proto_pack/Isometric/slopeQuarter_N.png" type="Texture" id=190]
+[ext_resource path="res://arts/proto_pack/Isometric/slopeQuarter_S.png" type="Texture" id=191]
+[ext_resource path="res://arts/proto_pack/Isometric/slopeQuarter_W.png" type="Texture" id=192]
+[ext_resource path="res://arts/proto_pack/Isometric/sloperCornerInner_E.png" type="Texture" id=193]
+[ext_resource path="res://arts/proto_pack/Isometric/sloperCornerInner_N.png" type="Texture" id=194]
+[ext_resource path="res://arts/proto_pack/Isometric/sloperCornerInner_S.png" type="Texture" id=195]
+[ext_resource path="res://arts/proto_pack/Isometric/sloperCornerInner_W.png" type="Texture" id=196]
+[ext_resource path="res://arts/proto_pack/Isometric/sloperCornerOuter_E.png" type="Texture" id=197]
+[ext_resource path="res://arts/proto_pack/Isometric/sloperCornerOuter_N.png" type="Texture" id=198]
+[ext_resource path="res://arts/proto_pack/Isometric/sloperCornerOuter_S.png" type="Texture" id=199]
+[ext_resource path="res://arts/proto_pack/Isometric/sloperCornerOuter_W.png" type="Texture" id=200]
+[ext_resource path="res://arts/proto_pack/Isometric/arrowWall_E.png" type="Texture" id=201]
+[ext_resource path="res://arts/proto_pack/Isometric/arrowWall_N.png" type="Texture" id=202]
+[ext_resource path="res://arts/proto_pack/Isometric/arrowWall_S.png" type="Texture" id=203]
+[ext_resource path="res://arts/proto_pack/Isometric/crate_S.png" type="Texture" id=204]
+[ext_resource path="res://arts/proto_pack/Isometric/crate_W.png" type="Texture" id=205]
+[ext_resource path="res://arts/proto_pack/Isometric/doorClosed_E.png" type="Texture" id=206]
+[ext_resource path="res://arts/proto_pack/Isometric/doorClosed_N.png" type="Texture" id=207]
+[ext_resource path="res://arts/proto_pack/Isometric/doorClosed_S.png" type="Texture" id=208]
+[ext_resource path="res://arts/proto_pack/Isometric/doorClosed_W.png" type="Texture" id=209]
+[ext_resource path="res://arts/proto_pack/Isometric/doorOpen_E.png" type="Texture" id=210]
+[ext_resource path="res://arts/proto_pack/Isometric/doorOpen_N.png" type="Texture" id=211]
+[ext_resource path="res://arts/proto_pack/Isometric/doorOpen_S.png" type="Texture" id=212]
+[ext_resource path="res://arts/proto_pack/Isometric/doorOpen_W.png" type="Texture" id=213]
+[ext_resource path="res://arts/proto_pack/Isometric/doorwayBottom_E.png" type="Texture" id=214]
+[ext_resource path="res://arts/proto_pack/Isometric/doorwayBottom_N.png" type="Texture" id=215]
+[ext_resource path="res://arts/proto_pack/Isometric/doorwayBottom_S.png" type="Texture" id=216]
+[ext_resource path="res://arts/proto_pack/Isometric/doorwayBottom_W.png" type="Texture" id=217]
+[ext_resource path="res://arts/proto_pack/Isometric/doorwayCenter_E.png" type="Texture" id=218]
+[ext_resource path="res://arts/proto_pack/Isometric/doorwayCenter_N.png" type="Texture" id=219]
+[ext_resource path="res://arts/proto_pack/Isometric/doorwayCenter_S.png" type="Texture" id=220]
+[ext_resource path="res://arts/proto_pack/Isometric/doorwayCenter_W.png" type="Texture" id=221]
+[ext_resource path="res://arts/proto_pack/Isometric/doorwayLeftBottom_E.png" type="Texture" id=222]
+[ext_resource path="res://arts/proto_pack/Isometric/doorwayLeftBottom_N.png" type="Texture" id=223]
+[ext_resource path="res://arts/proto_pack/Isometric/doorwayLeftBottom_S.png" type="Texture" id=224]
+[ext_resource path="res://arts/proto_pack/Isometric/doorwayLeftBottom_W.png" type="Texture" id=225]
+[ext_resource path="res://arts/proto_pack/Isometric/doorwayLeft_E.png" type="Texture" id=226]
+[ext_resource path="res://arts/proto_pack/Isometric/doorwayLeft_N.png" type="Texture" id=227]
+[ext_resource path="res://arts/proto_pack/Isometric/doorwayLeft_S.png" type="Texture" id=228]
+[ext_resource path="res://arts/proto_pack/Isometric/doorwayLeft_W.png" type="Texture" id=229]
+[ext_resource path="res://arts/proto_pack/Isometric/doorwayMiddleBottom_E.png" type="Texture" id=230]
+[ext_resource path="res://arts/proto_pack/Isometric/doorwayMiddleBottom_N.png" type="Texture" id=231]
+[ext_resource path="res://arts/proto_pack/Isometric/doorwayMiddleBottom_S.png" type="Texture" id=232]
+[ext_resource path="res://arts/proto_pack/Isometric/doorwayMiddleBottom_W.png" type="Texture" id=233]
+[ext_resource path="res://arts/proto_pack/Isometric/doorwayMiddle_E.png" type="Texture" id=234]
+[ext_resource path="res://arts/proto_pack/Isometric/doorwayMiddle_N.png" type="Texture" id=235]
+[ext_resource path="res://arts/proto_pack/Isometric/doorwayMiddle_S.png" type="Texture" id=236]
+[ext_resource path="res://arts/proto_pack/Isometric/doorwayMiddle_W.png" type="Texture" id=237]
+[ext_resource path="res://arts/proto_pack/Isometric/doorwayRightBottom_E.png" type="Texture" id=238]
+[ext_resource path="res://arts/proto_pack/Isometric/arrow_E.png" type="Texture" id=239]
+[ext_resource path="res://arts/proto_pack/Isometric/arrowWall_W.png" type="Texture" id=240]
+
+[node name="Node2D" type="Node2D"]
+position = Vector2( 7, 2 )
+
+[node name="ArrowWallE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 201 )
+
+[node name="ArrowWallN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 202 )
+
+[node name="ArrowWallS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 203 )
+
+[node name="ArrowWallW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 240 )
+
+[node name="ArrowE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 239 )
+
+[node name="ArrowN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 1 )
+
+[node name="ArrowS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 2 )
+
+[node name="ArrowW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 3 )
+
+[node name="BlockAngleE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 4 )
+
+[node name="BlockAngleN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 5 )
+
+[node name="BlockAngleS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 6 )
+
+[node name="BlockAngleW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 7 )
+
+[node name="BlockHalfE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 8 )
+
+[node name="BlockHalfN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 9 )
+
+[node name="BlockHalfS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 10 )
+
+[node name="BlockHalfW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 11 )
+
+[node name="BlockQuarterE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 12 )
+
+[node name="BlockQuarterN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 13 )
+
+[node name="BlockQuarterS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 14 )
+
+[node name="BlockQuarterW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 15 )
+
+[node name="BlockE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 16 )
+
+[node name="BlockN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 17 )
+
+[node name="BlockS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 18 )
+
+[node name="BlockW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 19 )
+
+[node name="ColumnBlocksE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 20 )
+
+[node name="ColumnBlocksN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 21 )
+
+[node name="ColumnBlocksS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 22 )
+
+[node name="ColumnBlocksW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 23 )
+
+[node name="ColumnCornerE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 24 )
+
+[node name="ColumnCornerN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 25 )
+
+[node name="ColumnCornerS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 26 )
+
+[node name="ColumnCornerW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 27 )
+
+[node name="ColumnE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 28 )
+
+[node name="ColumnN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 29 )
+
+[node name="ColumnS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 30 )
+
+[node name="ColumnW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 31 )
+
+[node name="CrateE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 32 )
+
+[node name="CrateN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 33 )
+
+[node name="CrateS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 204 )
+
+[node name="CrateW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 205 )
+
+[node name="DoorClosedE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 206 )
+
+[node name="DoorClosedN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 207 )
+
+[node name="DoorClosedS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 208 )
+
+[node name="DoorClosedW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 209 )
+
+[node name="DoorOpenE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 210 )
+
+[node name="DoorOpenN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 211 )
+
+[node name="DoorOpenS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 212 )
+
+[node name="DoorOpenW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 213 )
+
+[node name="DoorwayBottomE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 214 )
+
+[node name="DoorwayBottomN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 215 )
+
+[node name="DoorwayBottomS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 216 )
+
+[node name="DoorwayBottomW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 217 )
+
+[node name="DoorwayCenterE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 218 )
+
+[node name="DoorwayCenterN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 219 )
+
+[node name="DoorwayCenterS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 220 )
+
+[node name="DoorwayCenterW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 221 )
+
+[node name="DoorwayLeftBottomE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 222 )
+
+[node name="DoorwayLeftBottomN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 223 )
+
+[node name="DoorwayLeftBottomS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 224 )
+
+[node name="DoorwayLeftBottomW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 225 )
+
+[node name="DoorwayLeftE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 226 )
+
+[node name="DoorwayLeftN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 227 )
+
+[node name="DoorwayLeftS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 228 )
+
+[node name="DoorwayLeftW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 229 )
+
+[node name="DoorwayMiddleBottomE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 230 )
+
+[node name="DoorwayMiddleBottomN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 231 )
+
+[node name="DoorwayMiddleBottomS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 232 )
+
+[node name="DoorwayMiddleBottomW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 233 )
+
+[node name="DoorwayMiddleE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 234 )
+
+[node name="DoorwayMiddleN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 235 )
+
+[node name="DoorwayMiddleS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 236 )
+
+[node name="DoorwayMiddleW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 237 )
+
+[node name="DoorwayRightBottomE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 238 )
+
+[node name="DoorwayRightBottomN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 152 )
+
+[node name="DoorwayRightBottomS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 153 )
+
+[node name="DoorwayRightBottomW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 154 )
+
+[node name="DoorwayRightE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 155 )
+
+[node name="DoorwayRightN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 156 )
+
+[node name="DoorwayRightS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 157 )
+
+[node name="DoorwayRightW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 158 )
+
+[node name="DoorwayE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 159 )
+
+[node name="DoorwayN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 34 )
+
+[node name="DoorwayS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 35 )
+
+[node name="DoorwayW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 36 )
+
+[node name="FenceE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 37 )
+
+[node name="FenceN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 38 )
+
+[node name="FenceS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 39 )
+
+[node name="FenceW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 40 )
+
+[node name="FloorHalfE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 41 )
+
+[node name="FloorHalfN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 42 )
+
+[node name="FloorHalfS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 43 )
+
+[node name="FloorHalfW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 44 )
+
+[node name="FloorQuarterE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 45 )
+
+[node name="FloorQuarterN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 46 )
+
+[node name="FloorQuarterS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 47 )
+
+[node name="FloorQuarterW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 48 )
+
+[node name="FloorE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 49 )
+
+[node name="FloorN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 50 )
+
+[node name="FloorS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 51 )
+
+[node name="FloorW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 52 )
+
+[node name="LadderE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 53 )
+
+[node name="LadderN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 54 )
+
+[node name="LadderS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 56 )
+
+[node name="LadderW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 160 )
+
+[node name="PoleGroupE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 161 )
+
+[node name="PoleGroupN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 162 )
+
+[node name="PoleGroupS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 163 )
+
+[node name="PoleGroupW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 164 )
+
+[node name="PoleE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 165 )
+
+[node name="PoleN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 166 )
+
+[node name="PoleS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 167 )
+
+[node name="PoleW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 168 )
+
+[node name="SlabAngleE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 169 )
+
+[node name="SlabAngleN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 170 )
+
+[node name="SlabAngleS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 171 )
+
+[node name="SlabAngleW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 172 )
+
+[node name="SlabHalfE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 173 )
+
+[node name="SlabHalfN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 174 )
+
+[node name="SlabHalfS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 175 )
+
+[node name="SlabHalfW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 176 )
+
+[node name="SlabQuarterE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 177 )
+
+[node name="SlabQuarterN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 178 )
+
+[node name="SlabQuarterS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 179 )
+
+[node name="SlabQuarterW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 180 )
+
+[node name="SlabE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 181 )
+
+[node name="SlabN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 182 )
+
+[node name="SlabS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 183 )
+
+[node name="SlabW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 184 )
+
+[node name="SlopeHalfE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 185 )
+
+[node name="SlopeHalfN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 186 )
+
+[node name="SlopeHalfS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 187 )
+
+[node name="SlopeHalfW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 188 )
+
+[node name="SlopeQuarterE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 189 )
+
+[node name="SlopeQuarterN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 190 )
+
+[node name="SlopeQuarterS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 191 )
+
+[node name="SlopeQuarterW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 192 )
+
+[node name="SloperCornerInnerE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 193 )
+
+[node name="SloperCornerInnerN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 194 )
+
+[node name="SloperCornerInnerS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 195 )
+
+[node name="SloperCornerInnerW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 196 )
+
+[node name="SloperCornerOuterE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 197 )
+
+[node name="SloperCornerOuterN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 198 )
+
+[node name="SloperCornerOuterS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 199 )
+
+[node name="SloperCornerOuterW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 200 )
+
+[node name="SlopeSmallE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 55 )
+
+[node name="SlopeSmallN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 57 )
+
+[node name="SlopeSmallS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 58 )
+
+[node name="SlopeSmallW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 59 )
+
+[node name="SlopeE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 60 )
+
+[node name="SlopeN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 61 )
+
+[node name="SlopeS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 62 )
+
+[node name="SlopeW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 63 )
+
+[node name="StairsCornerInnerE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 64 )
+
+[node name="StairsCornerInnerN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 65 )
+
+[node name="StairsCornerInnerS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 66 )
+
+[node name="StairsCornerInnerW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 67 )
+
+[node name="StairsCornerOuterE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 68 )
+
+[node name="StairsCornerOuterN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 69 )
+
+[node name="StairsCornerOuterS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 70 )
+
+[node name="StairsCornerOuterW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 71 )
+
+[node name="StairsOpenCornerInnerE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 72 )
+
+[node name="StairsOpenCornerInnerN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 73 )
+
+[node name="StairsOpenCornerInnerS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 74 )
+
+[node name="StairsOpenCornerInnerW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 75 )
+
+[node name="StairsOpenCornerOuterE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 77 )
+
+[node name="StairsOpenCornerOuterN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 76 )
+
+[node name="StairsOpenCornerOuterS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 78 )
+
+[node name="StairsOpenCornerOuterW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 80 )
+
+[node name="StairsOpenE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 79 )
+
+[node name="StairsOpenN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 81 )
+
+[node name="StairsOpenS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 82 )
+
+[node name="StairsOpenW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 83 )
+
+[node name="StairsE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 84 )
+
+[node name="StairsN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 85 )
+
+[node name="StairsS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 86 )
+
+[node name="StairsW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 87 )
+
+[node name="StepsE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 88 )
+
+[node name="StepsN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 89 )
+
+[node name="StepsS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 90 )
+
+[node name="StepsW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 91 )
+
+[node name="SwitchFloorOffE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 92 )
+
+[node name="SwitchFloorOffN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 93 )
+
+[node name="SwitchFloorOffS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 94 )
+
+[node name="SwitchFloorOffW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 95 )
+
+[node name="SwitchFloorOnE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 96 )
+
+[node name="SwitchFloorOnN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 97 )
+
+[node name="SwitchFloorOnS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 98 )
+
+[node name="SwitchFloorOnW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 99 )
+
+[node name="SwitchWallOffE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 100 )
+
+[node name="SwitchWallOffN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 101 )
+
+[node name="SwitchWallOffS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 102 )
+
+[node name="SwitchWallOffW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 103 )
+
+[node name="SwitchWallOnE" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 104 )
+
+[node name="SwitchWallOnN" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 105 )
+
+[node name="SwitchWallOnS" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 106 )
+
+[node name="SwitchWallOnW" type="Sprite" parent="."]
+position = Vector2( -2560, 499 )
+texture = ExtResource( 107 )
+
+[node name="WallBattlementE" type="Sprite" parent="."]
+position = Vector2( -1884.08, 437.55 )
+scale = Vector2( 3.93944, 9.33892 )
+texture = ExtResource( 108 )
+centered = false
+offset = Vector2( 0.028, 0.054 )
+
+[node name="WallBattlementN" type="Sprite" parent="."]
+position = Vector2( -2208, 539 )
+texture = ExtResource( 109 )
+
+[node name="WallBattlementS" type="Sprite" parent="."]
+position = Vector2( -2178, 447 )
+texture = ExtResource( 110 )
+
+[node name="WallBattlementW" type="Sprite" parent="."]
+position = Vector2( -2104, 532 )
+texture = ExtResource( 111 )
+
+[node name="WallCornerHalfE" type="Sprite" parent="."]
+position = Vector2( -1758, 934 )
+texture = ExtResource( 112 )
+
+[node name="WallCornerHalfN" type="Sprite" parent="."]
+position = Vector2( -1454, 1740 )
+texture = ExtResource( 113 )
+
+[node name="WallCornerHalfS" type="Sprite" parent="."]
+position = Vector2( -1491, 1554 )
+texture = ExtResource( 114 )
+
+[node name="WallCornerHalfW" type="Sprite" parent="."]
+position = Vector2( -1702, 934 )
+texture = ExtResource( 115 )
+
+[node name="WallCornerE" type="Sprite" parent="."]
+position = Vector2( 625, 1161 )
+texture = ExtResource( 116 )
+
+[node name="WallCornerN" type="Sprite" parent="."]
+position = Vector2( 589, 1359 )
+texture = ExtResource( 117 )
+
+[node name="WallCornerS" type="Sprite" parent="."]
+position = Vector2( 769, 1514 )
+texture = ExtResource( 118 )
+
+[node name="WallCornerW" type="Sprite" parent="."]
+position = Vector2( 679, 1730 )
+texture = ExtResource( 119 )
+
+[node name="WallCurveHalfE" type="Sprite" parent="."]
+position = Vector2( 1505, 183 )
+texture = ExtResource( 120 )
+
+[node name="WallCurveHalfN" type="Sprite" parent="."]
+position = Vector2( 1730, 808 )
+texture = ExtResource( 121 )
+
+[node name="WallCurveHalfS" type="Sprite" parent="."]
+position = Vector2( 1729, 678 )
+texture = ExtResource( 122 )
+
+[node name="WallCurveHalfW" type="Sprite" parent="."]
+position = Vector2( 1596, 188 )
+texture = ExtResource( 123 )
+
+[node name="WallCurveE" type="Sprite" parent="."]
+position = Vector2( 2441, 1120 )
+texture = ExtResource( 124 )
+
+[node name="WallCurveN" type="Sprite" parent="."]
+position = Vector2( 1741, 1825 )
+texture = ExtResource( 125 )
+
+[node name="WallCurveS" type="Sprite" parent="."]
+position = Vector2( 1695, 1537 )
+texture = ExtResource( 126 )
+
+[node name="WallCurveW" type="Sprite" parent="."]
+position = Vector2( 2530, 1115 )
+texture = ExtResource( 127 )
+
+[node name="WallHalfE" type="Sprite" parent="."]
+position = Vector2( -781, 415 )
+texture = ExtResource( 128 )
+
+[node name="WallHalfN" type="Sprite" parent="."]
+position = Vector2( -953, 373 )
+texture = ExtResource( 129 )
+
+[node name="WallHalfS" type="Sprite" parent="."]
+position = Vector2( -1046, 556 )
+texture = ExtResource( 130 )
+
+[node name="WallHalfW" type="Sprite" parent="."]
+position = Vector2( -857, 508 )
+texture = ExtResource( 131 )
+
+[node name="WallE" type="Sprite" parent="."]
+position = Vector2( -371, 2264 )
+texture = ExtResource( 132 )
+
+[node name="WallN" type="Sprite" parent="."]
+position = Vector2( -355, 1939 )
+texture = ExtResource( 133 )
+
+[node name="WallS" type="Sprite" parent="."]
+position = Vector2( -445, 1709 )
+texture = ExtResource( 134 )
+
+[node name="WallW" type="Sprite" parent="."]
+position = Vector2( -35, 1338 )
+texture = ExtResource( 135 )
+
+[node name="WindowLeftE" type="Sprite" parent="."]
+position = Vector2( -152, 1411 )
+texture = ExtResource( 136 )
+
+[node name="WindowLeftN" type="Sprite" parent="."]
+position = Vector2( 37, 2993 )
+texture = ExtResource( 137 )
+
+[node name="WindowLeftS" type="Sprite" parent="."]
+position = Vector2( -270, 3002 )
+texture = ExtResource( 138 )
+
+[node name="WindowLeftW" type="Sprite" parent="."]
+position = Vector2( -462, 1399 )
+texture = ExtResource( 139 )
+
+[node name="WindowMiddleE" type="Sprite" parent="."]
+position = Vector2( 25, 2780 )
+texture = ExtResource( 140 )
+
+[node name="WindowMiddleN" type="Sprite" parent="."]
+position = Vector2( -150, 2495 )
+texture = ExtResource( 141 )
+
+[node name="WindowMiddleS" type="Sprite" parent="."]
+position = Vector2( -267, 2766 )
+texture = ExtResource( 142 )
+
+[node name="WindowMiddleW" type="Sprite" parent="."]
+position = Vector2( -66, 2505 )
+texture = ExtResource( 143 )
+
+[node name="WindowRightE" type="Sprite" parent="."]
+position = Vector2( -147, 1659 )
+texture = ExtResource( 144 )
+
+[node name="WindowRightN" type="Sprite" parent="."]
+position = Vector2( 71, 1594 )
+texture = ExtResource( 145 )
+
+[node name="WindowRightS" type="Sprite" parent="."]
+position = Vector2( -50, 1866 )
+texture = ExtResource( 146 )
+
+[node name="WindowRightW" type="Sprite" parent="."]
+position = Vector2( -229, 1819 )
+texture = ExtResource( 147 )
+
+[node name="WindowE" type="Sprite" parent="."]
+position = Vector2( 31, 2106 )
+texture = ExtResource( 148 )
+
+[node name="WindowN" type="Sprite" parent="."]
+position = Vector2( -126, 2066 )
+texture = ExtResource( 149 )
+
+[node name="WindowS" type="Sprite" parent="."]
+position = Vector2( -229, 2309 )
+texture = ExtResource( 150 )
+
+[node name="WindowW" type="Sprite" parent="."]
+position = Vector2( -62, 2264 )
+texture = ExtResource( 151 )
