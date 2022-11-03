@@ -22,7 +22,6 @@ _global_script_class_icons={
 
 config/name="iso1"
 run/main_scene="res://scenes/menu/s000_menu.tscn"
-config/icon="res://icon.png"
 
 [gui]
 
