@@ -6,6 +6,7 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="under" type="TileMap" parent="."]
+visible = false
 modulate = Color( 0.415686, 0.494118, 0.917647, 1 )
 position = Vector2( 0, 19.212 )
 mode = 1
@@ -50,9 +51,6 @@ cell_tile_origin = 2
 format = 1
 tile_data = PoolIntArray( -655366, 154, 0, -655365, 170, 0, -589830, 168, 0, -327683, 168, 0 )
 
-[node name="KinematicBody2D" parent="." instance=ExtResource( 1 )]
-position = Vector2( 364, 123 )
-
 [node name="walls" type="KinematicBody2D" parent="."]
 position = Vector2( 142, -60 )
 
@@ -76,3 +74,6 @@ polygon = PoolVector2Array( 1010, 251, 1010, 95, 372, -223, 372, -170, 272, -271
 [node name="CollisionPolygon2D5" type="CollisionPolygon2D" parent="walls"]
 build_mode = 1
 polygon = PoolVector2Array( 244, -668, 273, -655, 276, -628, 300, -620, 300, -599, 333, -579, 336, -562, 362, -548, 367, -526, 393, -510, 397, -493, 407, -483, 396, -441, 242, -514 )
+
+[node name="KinematicBody2D" parent="." instance=ExtResource( 1 )]
+position = Vector2( -183, 16 )
